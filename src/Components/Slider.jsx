@@ -35,7 +35,7 @@ function Slider(props) {
           return (
             <article
               key={id}
-              className={`h-fit w-full absolute m-auto top-0 bottom-0 px-9 transform transition-all`}
+              className={`h-fit w-full absolute m-auto top-0 bottom-0 px-9 transform transition duration-1000`}
               style={{
                 transform: `translateX(${(index + counter) * 100}%)`,
               }}
